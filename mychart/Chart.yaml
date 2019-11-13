@@ -1,0 +1,6 @@
+name: Phani's testing of helming
+version: 1.0.0
+description: version control over clusters
+maintainers:
+    - name: Phani Mullapudi
+    - twitter: phanitweets
