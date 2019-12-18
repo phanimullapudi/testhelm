@@ -1,2 +1,15 @@
 scale: 10
 image: "latest"
+
+database:
+  #Use external database (if not Percona Operator Based will be used)
+  external: false
+
+  ## Database credential
+  host: cluster1-pxc.pxc.svc.cluster.local
+  port: 3306
+  user: root
+  # password for external database
+  password: adminpassword
+  database: magento
+  testpass: 'phani12#$'
